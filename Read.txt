@@ -1,0 +1,9 @@
+I have also attached all the files containing the codes in case the ones in the PFD file are not working properly, the setup for the project to work is as follows:
+
+In Visual Studio Code, create a new project that supports C, then in Solution Explorer, right-click on Source Files, next click on add then click on add existing Item, next navigate to where you saved the files and add:
+main.c
+knn.c
+data_loader.c
+
+Furthermore, right click on Header Files, click add, then existing Item and add:
+knn.h
